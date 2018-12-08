@@ -9,10 +9,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Dataset file infomation
-links = 'links.csv'
-movies = 'movies.csv'
-ratings = 'ratings.csv'
-tags = 'tags.csv'
+## Large set
+#links = 'ml-20m/links.csv'
+#movies = 'ml-20m/movies.csv'
+#ratings = 'ml-20m/ratings.csv'
+#tags = 'ml-20m/tags.csv'
+# Small set
+links = 'ml-latest-small/links.csv'
+movies = 'ml-latest-small/movies.csv'
+ratings = 'ml-latest-small/ratings.csv'
+tags = 'ml-latest-small/tags.csv'
 
 df_l = pd.read_csv(links)
 df_m = pd.read_csv(movies)
